@@ -1,0 +1,217 @@
+<!DOCTYPE html> <html lang="pt-BR"> <head> <meta charset="UTF-8">
+    <title>Meu primeiro site!</title> </head>
+<body>
+   
+    <!--
+    Elementos de Bloco, ocupam toda a largura disponível
+    da página  
+    Ex:
+    <div></div>
+    <p></p>
+    <h1></h1>
+    <section></section>
+    <article></article>
+    -->
+    <!--
+    Elementos de Linha
+    Ex:
+    <a href=""></a>
+    <span></span>
+    <strong></strong>
+    <em></em>
+    <img src="" alt="">
+    -->
+
+    <!-- maneira incorreta -->
+    <!-- <span>
+        <div>
+            Texto
+        </div>
+    </span> -->
+
+    <!-- maneira correta -->
+    <!-- <div>
+        <span>
+            Texto
+        </span>
+    </div> -->
+    <h3>
+        Principais categorias do HTML5:
+    </h3>
+    <p>
+    Metadata Content
+    </p>
+    <p>
+        Flow Content
+    </p>
+    <p>
+        Sectioning Content
+    </p>
+    <p>
+        Heading Content
+    </p>
+    <p>
+        Phrasing Content
+    </p>
+    <p>
+        Embedded Content
+    </p>
+    Interactive Content
+    </p>
+
+    <h4>
+        Metadata Content
+    </h4>
+    <p>
+        &lt;title&gt; Informa o titulo
+    </p>
+    &lt;meta&gt; Definir Codificação
+    <p>
+
+    </p>
+    <p>
+        &lt;link&gt; e &lt;style&gt; Importar CSS
+    </p>
+    <p>
+        &lt;script&gt; Configurar o comportamento da pagina (javascript)
+    </p>
+
+    <h4>
+    Flow Content
+</h4>
+<p>
+Representa a maior parte dos elementos usados no body
+</p>
+    &lt;div&gt; Caixa de divisão genérica, serve para agrupar "pedaços" de código.
+<p>
+    &lt;p&gt; Para colocar paragrafos na minha página.
+</p>
+<p>
+    &lt;section&gt; Agrupa conteúdos que partilham do mesmo assunto ou idéia.
+</p>
+<p>
+    &lt;article&gt; Conteúdo indpendente e completo por si só (faz sentido sozinho).
+</p>
+<p>
+    <&lt;img&gt; Mostra uma imagem, foto, desenho, etc. (não precisa de tag de fechamento)>
+</p>
+<p>
+    &lt;form&gt; Criar formulários, o usuário poderá digitar dados, enviar mensagens ou fazer login 
+</p>   
+    <h4>
+         Sectioning Content
+    </h4>
+    <p>
+        organizar grandes áreas do documento
+    </p>
+    <p>
+        &lt;section&gt;
+    </p>
+    <p>
+        &lt;article&gt; conteúdo independene e completo por si só (faz sentido sozinho).
+    </p>
+    <p>
+        &lt;aside&gt; serve para guardar um conteúdo secundário/lateral (links relacionados, anúncios,biografia e etc).
+    </p>
+    <p>
+        &lt;nav&gt; agrupa links de navegação
+    </p>
+
+    <h4>
+        Heading Content
+    </h4>
+    <p>
+        h1, h2, h3, h4, h5, e h6 -> Para adicionar títulos e subtítulos
+    </p>
+    <p>
+        &lt;hgroup&gt; serve para agrupar elementos de título, exemplo:
+        <hgroup>
+            <h5>Aprenda HTML</h5>
+            <p>Senai Americana</p>
+        </hgroup>
+    </p>
+    
+    <h4>
+        Phrasing Content
+    </h4>
+    <p>
+        Elementos que marcam textos ou partes de texto
+    </p>
+    <p>
+        &lt;span&gt; um bloco génerico, não muda nada sozinho.
+        serve para agrupar pedaços de texto e aplicar CSS ou funções com javascript
+    </p>
+    <p>
+        &lt;a&gt; Criar um link para direcionar o usuário para outra página, utilizando o atriburo
+        <strong>href</strong>. exemplo: <a href="https://bitcoin.org/pt_BR/" target="_blank">clique aqui para ir ao site do bitcoin</a>
+    </p>
+    <p>
+        &lt;strong&gt; deixar uma parte do texto em negrito
+    </p>
+    
+    <p>
+        &lt;em&gt; deixar uma parte do texto em <em>itálico</em>
+    </p>
+    
+    <p>
+        &lt;mark&gt;adciona u=um marcador em uma parte do texto <mark>Neymar</mark> 
+    </p>
+    <p>
+        &lt;img&gt;Mostra uma imagem, foto, desenho. (não precisa de tag de fechamento) 
+    </p>
+    <h4>
+        embedded Content
+    </h4>
+    <p>
+        &lt;img&gt; Mostra uma imagem, foto, desenho. (não precisa de tag de fechamento)
+    </p>
+    <p>
+        &lt;video&gt; Adicionar um vídeo direto no site (pode mostrar botões de play e pause)
+    </p>
+    
+    <p>
+        &lt;canvas&gt; Criar uma tela em branco que poderá ser usado pelo javascript
+    </p>
+    <p>
+        &lt;svg&gt; Desenha gráficos baseados em vetores
+    </p>
+    <p>
+        &lt;iframe&gt; coloca outra página inteira dentro do seu website(muito usado para adicionar mapas e vídeos de outras páginas)
+    </p>
+    <h4>Interactive Content</h4>
+    <p>&lt;a&gt; Criar um link para direcionar o usuário para outra página, utilizando o atriburo
+        <strong>href</strong>. exemplo: <a href="https://bitcoin.org/pt_BR/" target="_blank">clique aqui para ir ao site do bitcoin</a>
+    </p>
+    <p> &lt;button&gt;Criar um botão clicável. exemplo:
+        <button>enviar</button> </p>
+
+    <p> &lt;input&gt; Usado para receber dados. Dentro os dados aceitos estão:<br>
+        type="text": campo de texto curto.
+        type="passworld": oculta os caracteres digitados.
+        type="email" ou type="number":valida dados especificos.
+        type="checkbox" ou type="radio": caixas de marcação e escolha única.
+        **** type é uma tag que não precisa de fechamento
+    </p>
+    <p> &lt;select&gt;Cria uma caixa de seleção em formato de lista suspensa(dropdown)</p>
+    <p> &lt;textarea&gt;Cria uma "caixa" com várias linhas, serve para textos longos, comentários, mensagens</p>
+    
+    <h4>Listas em html</h4>
+    <p>Lista não oerdenada(ul), exemplo:</p>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+
+
+    </ul>
+    <p>Lista ordenada(ol), exemplo:</p>
+    <ol>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+
+
+    </ol>
+
+</body>
+</html>
